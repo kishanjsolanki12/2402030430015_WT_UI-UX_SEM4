@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Recommendation App</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo-container">
+            <div class="logo"></div>
+            <h1>Movie Recommendation App</h1>
+        </div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="search.html">Search</a>
+            <a href="favorites.html" class="spacer">Favorites</a>
+            <div class="search-box">
+                <input type="text" placeholder="Search in site">
+                <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                  </svg></span>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <h1>Welcome to the Movie Recommendation App</h1>
+        <p>Discover new movies based on your preferences.</p>
+    </header>
+    <div class="movie-rec-header">
+        <h1 class="movie-rec-title">Recommended for You</h1>
+        <p class="movie-rec-subtitle">Personalized movie suggestions based on your interests.</p>
+    </div>
+
+    <div class="movie-rec-grid" style="margin-bottom: 50px;">
+        <div class="movie-rec-card movie-rec-recommended">
+            <div class="movie-rec-category-tag">Recommended</div>
+            <div class="movie-rec-poster-container">
+                <div class="movie-rec-poster-placeholder">Poster of Interstellar</div>
+            </div>
+            <div class="movie-rec-info">
+                <div class="movie-rec-title-text">Interstellar</div>
+                <div class="movie-rec-genres">Sci-Fi, Drama</div>
+            </div>
+        </div>
+
+        <div class="movie-rec-card movie-rec-must-watch">
+            <div class="movie-rec-category-tag">Must Watch</div>
+            <div class="movie-rec-poster-container">
+                <div class="movie-rec-poster-placeholder">Poster of The Dark Knight</div>
+            </div>
+            <div class="movie-rec-info">
+                <div class="movie-rec-title-text">The Dark Knight</div>
+                <div class="movie-rec-genres">Action, Crime</div>
+            </div>
+        </div>
+
+        <div class="movie-rec-card movie-rec-new-release">
+            <div class="movie-rec-category-tag">New Release</div>
+            <div class="movie-rec-poster-container">
+                <div class="movie-rec-poster-placeholder">Poster of La La Land</div>
+            </div>
+            <div class="movie-rec-info">
+                <div class="movie-rec-title-text">La La Land</div>
+                <div class="movie-rec-genres">Drama, Music</div>
+            </div>
+        </div>
+
+        <div class="movie-rec-card movie-rec-award-winner">
+            <div class="movie-rec-category-tag">Award Winner</div>
+            <div class="movie-rec-poster-container">
+                <div class="movie-rec-poster-placeholder">Poster of Parasite</div>
+            </div>
+            <div class="movie-rec-info">
+                <div class="movie-rec-title-text">Parasite</div>
+                <div class="movie-rec-genres">Drama, Thriller</div>
+            </div>
+        </div>
+        <div class="movie-rec-card movie-rec-recommended">
+            <div class="movie-rec-category-tag">Recommended</div>
+            <div class="movie-rec-poster-container">
+                <div class="movie-rec-poster-placeholder">Poster of Interstellar</div>
+            </div>
+            <div class="movie-rec-info">
+                <div class="movie-rec-title-text">Interstellar</div>
+                <div class="movie-rec-genres">Sci-Fi, Drama</div>
+            </div>
+        </div>
+
+        <div class="movie-rec-card movie-rec-must-watch">
+            <div class="movie-rec-category-tag">Must Watch</div>
+            <div class="movie-rec-poster-container">
+                <div class="movie-rec-poster-placeholder">Poster of The Dark Knight</div>
+            </div>
+            <div class="movie-rec-info">
+                <div class="movie-rec-title-text">The Dark Knight</div>
+                <div class="movie-rec-genres">Action, Crime</div>
+            </div>
+        </div>
+
+        <div class="movie-rec-card movie-rec-new-release">
+            <div class="movie-rec-category-tag">New Release</div>
+            <div class="movie-rec-poster-container">
+                <div class="movie-rec-poster-placeholder">Poster of La La Land</div>
+            </div>
+            <div class="movie-rec-info">
+                <div class="movie-rec-title-text">La La Land</div>
+                <div class="movie-rec-genres">Drama, Music</div>
+            </div>
+        </div>
+
+        <div class="movie-rec-card movie-rec-award-winner">
+            <div class="movie-rec-category-tag">Award Winner</div>
+            <div class="movie-rec-poster-container">
+                <div class="movie-rec-poster-placeholder">Poster of Parasite</div>
+            </div>
+            <div class="movie-rec-info">
+                <div class="movie-rec-title-text">Parasite</div>
+                <div class="movie-rec-genres">Drama, Thriller</div>
+            </div>
+        </div><div class="movie-rec-card movie-rec-recommended">
+            <div class="movie-rec-category-tag">Recommended</div>
+            <div class="movie-rec-poster-container">
+                <div class="movie-rec-poster-placeholder">Poster of Interstellar</div>
+            </div>
+            <div class="movie-rec-info">
+                <div class="movie-rec-title-text">Interstellar</div>
+                <div class="movie-rec-genres">Sci-Fi, Drama</div>
+            </div>
+        </div>
+
+        <div class="movie-rec-card movie-rec-must-watch">
+            <div class="movie-rec-category-tag">Must Watch</div>
+            <div class="movie-rec-poster-container">
+                <div class="movie-rec-poster-placeholder">Poster of The Dark Knight</div>
+            </div>
+            <div class="movie-rec-info">
+                <div class="movie-rec-title-text">The Dark Knight</div>
+                <div class="movie-rec-genres">Action, Crime</div>
+            </div>
+        </div>
+
+        <div class="movie-rec-card movie-rec-new-release">
+            <div class="movie-rec-category-tag">New Release</div>
+            <div class="movie-rec-poster-container">
+                <div class="movie-rec-poster-placeholder">Poster of La La Land</div>
+            </div>
+            <div class="movie-rec-info">
+                <div class="movie-rec-title-text">La La Land</div>
+                <div class="movie-rec-genres">Drama, Music</div>
+            </div>
+        </div>
+
+        <div class="movie-rec-card movie-rec-award-winner">
+            <div class="movie-rec-category-tag">Award Winner</div>
+            <div class="movie-rec-poster-container">
+                <div class="movie-rec-poster-placeholder">Poster of Parasite</div>
+            </div>
+            <div class="movie-rec-info">
+                <div class="movie-rec-title-text">Parasite</div>
+                <div class="movie-rec-genres">Drama, Thriller</div>
+            </div>
+        </div><div class="movie-rec-card movie-rec-recommended">
+            <div class="movie-rec-category-tag">Recommended</div>
+            <div class="movie-rec-poster-container">
+                <div class="movie-rec-poster-placeholder">Poster of Interstellar</div>
+            </div>
+            <div class="movie-rec-info">
+                <div class="movie-rec-title-text">Interstellar</div>
+                <div class="movie-rec-genres">Sci-Fi, Drama</div>
+            </div>
+        </div>
+
+        <div class="movie-rec-card movie-rec-must-watch">
+            <div class="movie-rec-category-tag">Must Watch</div>
+            <div class="movie-rec-poster-container">
+                <div class="movie-rec-poster-placeholder">Poster of The Dark Knight</div>
+            </div>
+            <div class="movie-rec-info">
+                <div class="movie-rec-title-text">The Dark Knight</div>
+                <div class="movie-rec-genres">Action, Crime</div>
+            </div>
+        </div>
+
+        <div class="movie-rec-card movie-rec-new-release">
+            <div class="movie-rec-category-tag">New Release</div>
+            <div class="movie-rec-poster-container">
+                <div class="movie-rec-poster-placeholder">Poster of La La Land</div>
+            </div>
+            <div class="movie-rec-info">
+                <div class="movie-rec-title-text">La La Land</div>
+                <div class="movie-rec-genres">Drama, Music</div>
+            </div>
+        </div>
+
+        <div class="movie-rec-card movie-rec-award-winner">
+            <div class="movie-rec-category-tag">Award Winner</div>
+            <div class="movie-rec-poster-container">
+                <div class="movie-rec-poster-placeholder">Poster of Parasite</div>
+            </div>
+            <div class="movie-rec-info">
+                <div class="movie-rec-title-text">Parasite</div>
+                <div class="movie-rec-genres">Drama, Thriller</div>
+            </div>
+        </div><div class="movie-rec-card movie-rec-recommended">
+            <div class="movie-rec-category-tag">Recommended</div>
+            <div class="movie-rec-poster-container">
+                <div class="movie-rec-poster-placeholder">Poster of Interstellar</div>
+            </div>
+            <div class="movie-rec-info">
+                <div class="movie-rec-title-text">Interstellar</div>
+                <div class="movie-rec-genres">Sci-Fi, Drama</div>
+            </div>
+        </div>
+
+        <div class="movie-rec-card movie-rec-must-watch">
+            <div class="movie-rec-category-tag">Must Watch</div>
+            <div class="movie-rec-poster-container">
+                <div class="movie-rec-poster-placeholder">Poster of The Dark Knight</div>
+            </div>
+            <div class="movie-rec-info">
+                <div class="movie-rec-title-text">The Dark Knight</div>
+                <div class="movie-rec-genres">Action, Crime</div>
+            </div>
+        </div>
+
+        <div class="movie-rec-card movie-rec-new-release">
+            <div class="movie-rec-category-tag">New Release</div>
+            <div class="movie-rec-poster-container">
+                <div class="movie-rec-poster-placeholder">Poster of La La Land</div>
+            </div>
+            <div class="movie-rec-info">
+                <div class="movie-rec-title-text">La La Land</div>
+                <div class="movie-rec-genres">Drama, Music</div>
+            </div>
+        </div>
+
+        <div class="movie-rec-card movie-rec-award-winner">
+            <div class="movie-rec-category-tag">Award Winner</div>
+            <div class="movie-rec-poster-container">
+                <div class="movie-rec-poster-placeholder">Poster of Parasite</div>
+            </div>
+            <div class="movie-rec-info">
+                <div class="movie-rec-title-text">Parasite</div>
+                <div class="movie-rec-genres">Drama, Thriller</div>
+            </div>
+        </div>
+    </div>
+   
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-column">
+                <h3>Shop</h3>
+                <ul class="footer-links">
+                    <li><a href="#">New Arrivals</a></li>
+                    <li><a href="#">Best Sellers</a></li>
+                    <li><a href="#">Sale Items</a></li>
+                    <li><a href="#">Collections</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-column">
+                <h3>Customer Service</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Shipping & Returns</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Size Guide</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-column">
+                <h3>About</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Our Story</a></li>
+                    <li><a href="#">Sustainability</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Press</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-column">
+                <h3>Connect</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Newsletter Sign Up</a></li>
+                    <li><a href="#">Store Locator</a></li>
+                </ul>
+                <div class="social-icons">
+                    <div class="social-icon">f</div>
+                    <div class="social-icon">t</div>
+                    <div class="social-icon">in</div>
+                    <div class="social-icon">ig</div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <div class="copyright-bar">
+        &copy; 2025 Company Name. All rights reserved. | <a href="#" style="color: #999999;">Privacy Policy</a> | <a href="#" style="color: #999999;">Terms of Service</a>
+    </div>
+</body>
+</html>

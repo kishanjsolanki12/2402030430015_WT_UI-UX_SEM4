@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Recommendation App</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo-container">
+            <div class="logo"></div>
+            <h1>Movie Recommendation App</h1>
+        </div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="search.html">Search</a>
+            <a href="favorites.html" class="spacer">Favorites</a>
+            <div class="search-box">
+                <input type="text" placeholder="Search in site">
+                <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                  </svg></span>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <h1>Welcome to the Movie Recommendation App</h1>
+        <p>Discover new movies based on your preferences.</p>
+    </header>
+
+    <section class="movies-section">
+        <div class="movies-header">
+            <h2>Popular Movies</h2>
+            <p>Explore trending movies that you may like.</p>
+        </div>
+
+        <div class="movies-container">
+            <!-- Movie Card 1 -->
+            <div class="movie-card">
+                <div class="movie-thumbnail"></div>
+                <div class="movie-details">
+                    <h3>Inception</h3>
+                    <p class="genre">Action, Sci-Fi</p>
+                    <p class="description">A mind-bending experience that dives into the world of dreams.</p>
+                    <span class="tag">Top Rated</span>
+                    <div class="director">
+                        <span class="circle"></span>
+                        <span>Christopher Nolan</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Movie Card 2 -->
+            <div class="movie-card">
+                <div class="movie-thumbnail"></div>
+                <div class="movie-details">
+                    <h3>The Shawshank Redemption</h3>
+                    <p class="genre">Drama</p>
+                    <p class="description">A story of hope and friendship in the darkest of places.</p>
+                    <span class="tag">Classic</span>
+                    <div class="director">
+                        <span class="circle"></span>
+                        <span>Frank Darabont</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="movie-rec-header">
+        <h1 class="movie-rec-title">Recommended for You</h1>
+        <p class="movie-rec-subtitle">Personalized movie suggestions based on your interests.</p>
+    </div>
+
+    <div class="movie-rec-grid">
+        <div class="movie-rec-card movie-rec-recommended">
+            <div class="movie-rec-category-tag">Recommended</div>
+            <div class="movie-rec-poster-container">
+                <div class="movie-rec-poster-placeholder">Poster of Interstellar</div>
+            </div>
+            <div class="movie-rec-info">
+                <div class="movie-rec-title-text">Interstellar</div>
+                <div class="movie-rec-genres">Sci-Fi, Drama</div>
+            </div>
+        </div>
+
+        <div class="movie-rec-card movie-rec-must-watch">
+            <div class="movie-rec-category-tag">Must Watch</div>
+            <div class="movie-rec-poster-container">
+                <div class="movie-rec-poster-placeholder">Poster of The Dark Knight</div>
+            </div>
+            <div class="movie-rec-info">
+                <div class="movie-rec-title-text">The Dark Knight</div>
+                <div class="movie-rec-genres">Action, Crime</div>
+            </div>
+        </div>
+
+        <div class="movie-rec-card movie-rec-new-release">
+            <div class="movie-rec-category-tag">New Release</div>
+            <div class="movie-rec-poster-container">
+                <div class="movie-rec-poster-placeholder">Poster of La La Land</div>
+            </div>
+            <div class="movie-rec-info">
+                <div class="movie-rec-title-text">La La Land</div>
+                <div class="movie-rec-genres">Drama, Music</div>
+            </div>
+        </div>
+
+        <div class="movie-rec-card movie-rec-award-winner">
+            <div class="movie-rec-category-tag">Award Winner</div>
+            <div class="movie-rec-poster-container">
+                <div class="movie-rec-poster-placeholder">Poster of Parasite</div>
+            </div>
+            <div class="movie-rec-info">
+                <div class="movie-rec-title-text">Parasite</div>
+                <div class="movie-rec-genres">Drama, Thriller</div>
+            </div>
+        </div>
+    </div>
+    <div class="movie-reviews-container">
+        <div class="movie-reviews-header">
+            <div class="movie-reviews-header-content">
+                <h1 class="movie-reviews-title">Movie Reviews</h1>
+                <p class="movie-reviews-subtitle">See what others are saying about the latest movies</p>
+            </div>
+            <div class="movie-reviews-logo"></div>
+        </div>
+
+        <div class="movie-reviews-grid">
+            <div class="movie-review-card">
+                <div class="movie-review-poster"></div>
+                <div class="movie-review-content">
+                    <h2 class="movie-review-title">The Dark Knight</h2>
+                    <p class="movie-review-author">Review by MovieBuff123</p>
+                    <p class="movie-review-text">Incredible performance by Heath Ledger as the Joker</p>
+                    
+                    <div class="movie-review-genres">
+                        <span class="movie-review-genre">Action</span>
+                        <span class="movie-review-genre">Thriller</span>
+                    </div>
+                    
+                    <div class="movie-review-user">
+                        <div class="movie-review-user-avatar"></div>
+                        <span class="movie-review-username">MovieBuff123</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="movie-review-card">
+                <div class="movie-review-poster"></div>
+                <div class="movie-review-content">
+                    <h2 class="movie-review-title">Black Panther</h2>
+                    <p class="movie-review-text">Great representation of diversity in superhero films</p>
+                    
+                    <div class="movie-review-genres">
+                        <span class="movie-review-genre">Action</span>
+                        <span class="movie-review-genre">Science-Fiction</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="user-reviews-container">
+        <div class="user-reviews-header">
+            <h1 class="user-reviews-title">User Reviews</h1>
+            <p class="user-reviews-subtitle">See what others think about these movies.</p>
+        </div>
+
+        <div class="user-reviews-grid">
+            <div class="user-review-card">
+                <div class="user-review-header">
+                    <div class="user-review-author">
+                        <div class="user-avatar"></div>
+                        <span class="user-name">MovieFan123</span>
+                    </div>
+                    <div class="user-review-rating">★★★★★</div>
+                </div>
+                <p class="user-review-content">Incredible visuals and a captivating story!</p>
+            </div>
+
+            <div class="user-review-card">
+                <div class="user-review-header">
+                    <div class="user-review-author">
+                        <div class="user-avatar"></div>
+                        <span class="user-name">CinemaLover22</span>
+                    </div>
+                    <div class="user-review-rating">★★★★★</div>
+                </div>
+                <p class="user-review-content">The acting was superb, highly recommended.</p>
+            </div>
+
+            <div class="user-review-card">
+                <div class="user-review-header">
+                    <div class="user-review-author">
+                        <div class="user-avatar"></div>
+                        <span class="user-name">FilmCritic99</span>
+                    </div>
+                    <div class="user-review-rating">★★★★★</div>
+                </div>
+                <p class="user-review-content">A masterpiece that stays with you long after it ends.</p>
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="subscription-container">
+        <div class="subscription-info">
+            <h1>Subscribe to Our Newsletter</h1>
+            <p>Stay updated with our latest offers</p>
+        </div>
+        <div class="subscription-form">
+            <div class="form-group">
+                <label class="form-label">Email</label>
+                <input type="email" class="form-input" placeholder="Enter your email address">
+                <p class="privacy-note">We respect your privacy</p>
+            </div>
+            <div class="form-group">
+                <label class="form-label">Interests</label>
+                <div class="checkbox-group">
+                    <label class="checkbox-label">Fashion</label>
+                    <label class="checkbox-label">Technology</label>
+                    <label class="checkbox-label">Home Decor</label>
+                </div>
+                <p class="category-note">Select your preferred categories</p>
+            </div>
+            <div class="form-buttons">
+                <button class="btn-cancel">Cancel</button>
+                <button class="btn-subscribe">Subscribe</button>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-column">
+                <h3>Shop</h3>
+                <ul class="footer-links">
+                    <li><a href="#">New Arrivals</a></li>
+                    <li><a href="#">Best Sellers</a></li>
+                    <li><a href="#">Sale Items</a></li>
+                    <li><a href="#">Collections</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-column">
+                <h3>Customer Service</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Shipping & Returns</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Size Guide</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-column">
+                <h3>About</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Our Story</a></li>
+                    <li><a href="#">Sustainability</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Press</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-column">
+                <h3>Connect</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Newsletter Sign Up</a></li>
+                    <li><a href="#">Store Locator</a></li>
+                </ul>
+                <div class="social-icons">
+                    <div class="social-icon">f</div>
+                    <div class="social-icon">t</div>
+                    <div class="social-icon">in</div>
+                    <div class="social-icon">ig</div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <div class="copyright-bar">
+        &copy; 2025 Company Name. All rights reserved. | <a href="#" style="color: #999999;">Privacy Policy</a> | <a href="#" style="color: #999999;">Terms of Service</a>
+    </div>
+</body>
+</html>

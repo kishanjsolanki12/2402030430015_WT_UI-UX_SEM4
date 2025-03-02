@@ -1,0 +1,776 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white !important;
+    color: #333;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #555;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.hero h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Movies Section */
+.movies-section {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+.movies-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.movies-header h2 {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.movies-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Movie Card */
+.movie-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    width: 45%;
+    min-width: 320px;
+    padding: 15px;
+    align-items: center;
+}
+
+.movie-thumbnail {
+    width: 80px;
+    height: 80px;
+    background-color: #ddd;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+
+.movie-details h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.genre {
+    font-size: 14px;
+    color: gray;
+}
+
+.description {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.tag {
+    display: inline-block;
+    background-color: #eee;
+    color: #555;
+    font-size: 12px;
+    padding: 2px 6px;
+    border-radius: 4px;
+    margin: 5px 0;
+}
+
+.director {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.circle {
+    width: 8px;
+    height: 8px;
+    background-color: gray;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .movies-container {
+        flex-direction: column;
+    }
+
+    .movie-card {
+        width: 100%;
+    }
+}
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo & Title */
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+    background-color: lightgray;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.navbar h1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Navigation Links */
+.nav-links {
+    display: flex;
+    align-items: center;
+   
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    margin: 0 10px;
+    font-size: 17px;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+    transition: text-decoration 5ms ease-in infinite;
+
+}
+
+/* Search Box */
+.search-box {
+    display: flex;
+    align-items: center;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 20px;
+}
+
+.search-box input {
+    border: none;
+    background: none;
+    padding: 5px;
+    font-size: 14px;
+    outline: none;
+}
+
+.search-box button {
+    border: none;
+    background: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+.spacer {
+    margin-right: 50px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-links {
+        width: 100%;
+        justify-content: space-between;
+        margin-top: 10px;
+    }
+
+    .search-box {
+        width: 100%;
+    }
+}
+
+/* Movie Grid Section */
+.movie-grid-section-unique {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+    background-color: #000;
+}
+
+/* Movie Card */
+.movie-card-unique {
+    width: 220px;
+    height: 300px;
+    background: #555;
+    position: relative;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: #fff;
+}
+
+/* Badge */
+.movie-badge-unique {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+/* Poster Placeholder */
+.movie-poster-placeholder-unique {
+    text-align: center;
+    font-size: 14px;
+}
+
+.movie-rec-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.movie-rec-title {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.movie-rec-subtitle {
+    color: #333;
+    font-size: 16px;
+}
+
+.movie-rec-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.movie-rec-card {
+    width: 250px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 2px 2px 2px gray;
+}
+
+.movie-rec-category-tag {
+    display: inline-block;
+    background-color: #e0e0e0;
+    padding: 4px 10px;
+    border-radius: 4px;
+    font-size: 12px;
+    margin: 10px;
+}
+
+.movie-rec-poster-container {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.movie-rec-poster-placeholder {
+    text-align: center;
+    color: #555;
+}
+
+.movie-rec-info {
+    padding: 15px;
+    background: white;
+}
+
+.movie-rec-title-text {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.movie-rec-genres {
+    font-size: 14px;
+    color: #555;
+}
+
+.movie-rec-recommended {
+    /* Specific styling for "Recommended" category */
+}
+
+.movie-rec-must-watch {
+    /* Specific styling for "Must Watch" category */
+}
+
+.movie-rec-new-release {
+    /* Specific styling for "New Release" category */
+}
+
+.movie-rec-award-winner {
+    /* Specific styling for "Award Winner" category */
+}
+
+.movie-reviews-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.movie-reviews-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 40px;
+}
+
+.movie-reviews-header-content {
+    max-width: 70%;
+}
+
+.movie-reviews-title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.movie-reviews-subtitle {
+    font-size: 14px;
+    color: #333;
+}
+
+.movie-reviews-logo {
+    width: 100px;
+    height: 90px;
+    background-color: #f0f0f0;
+}
+
+.movie-reviews-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.movie-review-card {
+    flex: 1;
+    min-width: 300px;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    padding: 20px;
+    display: flex;
+}
+
+.movie-review-poster {
+    width: 80px;
+    height: 80px;
+    background-color: #f0f0f0;
+    margin-right: 15px;
+    flex-shrink: 0;
+}
+
+.movie-review-content {
+    flex-grow: 1;
+}
+
+.movie-review-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.movie-review-author {
+    font-size: 12px;
+    color: #777;
+    margin-bottom: 5px;
+}
+
+.movie-review-text {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.movie-review-genres {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.movie-review-genre {
+    font-size: 12px;
+    background-color: #f5f5f5;
+    padding: 2px 8px;
+    border-radius: 10px;
+}
+
+.movie-review-user {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.movie-review-user-avatar {
+    width: 20px;
+    height: 20px;
+    background-color: #f0f0f0;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.movie-review-username {
+    font-size: 12px;
+    color: #777;
+}
+
+
+.user-reviews-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.user-reviews-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.user-reviews-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.user-reviews-subtitle {
+    color: #555;
+    font-size: 14px;
+}
+
+.user-reviews-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+    justify-content: center;
+}
+
+.user-review-card {
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    padding: 15px;
+    width: 100%;
+    max-width: 300px;
+}
+
+.user-review-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.user-review-author {
+    display: flex;
+    align-items: center;
+}
+
+.user-avatar {
+    width: 24px;
+    height: 24px;
+    background-color: #e0e0e0;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.user-name {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+}
+
+.user-review-rating {
+    color: #FFD700;
+    font-size: 14px;
+}
+
+.user-review-content {
+    font-size: 14px;
+    line-height: 1.4;
+    color: #333;
+    
+}
+.header {
+    background-color: #666666;
+    padding: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 2px solid #999999;
+    border-bottom: 2px solid #999999;
+}
+
+.user-profile {
+    display: flex;
+    align-items: center;
+}
+
+.avatar {
+    width: 50px;
+    height: 50px;
+    background-color: #BBBBBB;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.user-info h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.badges {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 5px;
+}
+
+.badge {
+    background-color: #999999;
+    color: white;
+    padding: 2px 8px;
+    border-radius: 3px;
+    font-size: 12px;
+}
+
+.badge.new {
+    background-color: #777777;
+}
+
+.deals-text {
+    font-size: 14px;
+}
+
+.cta-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.btn {
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn-light {
+    background-color: #DDDDDD;
+    color: #333333;
+    border: none;
+}
+
+.btn-dark {
+    background-color: #000000;
+    color: white;
+    border: none;
+}
+
+.subscription-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.subscription-info {
+    width: 45%;
+}
+
+.subscription-form {
+    width: 50%;
+}
+
+.subscription-info h1 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.subscription-info p {
+    font-size: 14px;
+    color: #555555;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.form-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #CCCCCC;
+    border-radius: 3px;
+}
+
+.privacy-note {
+    font-size: 12px;
+    color: #777777;
+    margin-top: 5px;
+}
+
+.checkbox-group {
+    display: flex;
+    gap: 10px;
+    margin-top: 5px;
+}
+
+.checkbox-label {
+    font-size: 14px;
+    padding: 5px 10px;
+    background-color: #f5f5f5;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.category-note {
+    font-size: 12px;
+    color: #777777;
+    margin-top: 5px;
+}
+
+.form-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.btn-cancel {
+    flex: 1;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #CCCCCC;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.btn-subscribe {
+    flex: 1;
+    padding: 10px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+  /* Footer Styles */
+  .footer {
+    background-color: #333333;
+    color: white;
+    padding: 30px 20px;
+    margin-top: auto;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-column {
+    width: 23%;
+    min-width: 200px;
+    margin-bottom: 20px;
+}
+
+.footer-column h3 {
+    font-size: 16px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #555555;
+}
+
+.footer-links {
+    list-style: none;
+}
+
+.footer-links li {
+    margin-bottom: 8px;
+}
+
+.footer-links a {
+    color: #CCCCCC;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-links a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.social-icon {
+    width: 30px;
+    height: 30px;
+    background-color: #555555;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright-bar {
+    background-color: #222222;
+    color: #999999;
+    text-align: center;
+    padding: 15px;
+    font-size: 12px;
+}
